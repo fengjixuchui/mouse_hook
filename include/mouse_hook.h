@@ -8,8 +8,12 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-  
-__declspec(dllexport) int64_t __stdcall hook_callback(int32_t n_code, uintptr_t w_param, int64_t l_param);
+
+  __declspec(dllexport) int64_t __stdcall hook_callback(
+    int32_t n_code,
+    uintptr_t w_param,
+    int64_t l_param
+  );
 
 #ifdef __cplusplus
 }
